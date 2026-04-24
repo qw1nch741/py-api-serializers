@@ -8,7 +8,9 @@ from cinema.serializers import (GenreSerializer,
                                 MovieListSerializer,
                                 MovieDetailSerializer,
                                 MovieSessionListSerializer,
-                                MovieSessionDetailSerializer, MovieSessionSerializer, MovieSerializer)
+                                MovieSessionDetailSerializer,
+                                MovieSessionSerializer,
+                                MovieSerializer)
 
 
 class GenreViewSet(viewsets.ModelViewSet):
